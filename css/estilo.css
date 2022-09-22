@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 80vh;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 125, 125);
+}
+.contenedor-primero{
+    font-size: 30px;
+    margin: 30px;
+    display:flex;
+    width: 300px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #007d7d;
+    box-shadow:  5px 5px 10px #007171,-5px -5px 10px #008a8a;
+}
+.contenedor{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #007d7d;
+    box-shadow:  10px 10px 20px #007171,-10px -10px 20px #008a8a;
+}
+.contar{
+    font-size:2cm;
+}
+.botones{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 5px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+span{
+    color: black;
+}
+.reset{
+    width: 70px;
+    height: 20;
+}
